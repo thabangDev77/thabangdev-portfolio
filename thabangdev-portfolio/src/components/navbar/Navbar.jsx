@@ -6,7 +6,7 @@ function Navbar() {
     <nav>
         <h1>Thabang.Dev</h1>
         <NavLink />
-        <button>Contact Me</button>
+        <button>Contact</button>
     </nav>
   )
 }
