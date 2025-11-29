@@ -4,6 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Project from './components/projects/Project';
 import Expertise from './components/expertise/Expertise';
+import Blog from './components/articles/Blog';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Project />
       <Expertise />
+      <Blog />
     </main>
     
   )
