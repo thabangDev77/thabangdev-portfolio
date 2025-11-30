@@ -1,10 +1,13 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faGithub, faXTwitter, faDiscord } from '@fortawesome/free-brands-svg-icons';
 
 function Home() {
   return (
     <section>
             <div>
-                // Placeholder for profile image
+                {/* Placeholder for profile image */} 
                 <img />
             </div> 
 
@@ -15,7 +18,12 @@ function Home() {
                 
                 <p>Aspiring full stack developer passionate about building functional, user-friendly web applications from front to back; driven by the challenge of creating seamless digital experiences.</p>
                 <div>
-                    // Add social media icons here
+                  <FontAwesomeIcon icon={faEnvelope} size="xl" />
+                  <FontAwesomeIcon icon={faLinkedin} size="xl" style={{color: "#33a7ff",}} />
+                  <FontAwesomeIcon icon={faGithub} size="xl" />
+                  <FontAwesomeIcon icon={faXTwitter} size="xl" style={{color: "#000000",}} />
+                  <FontAwesomeIcon icon={faDiscord} size="xl" style={{color: "#9875ff",}} />
+                    
                 </div>
                 <div>
                     <button >Lets Chat</button>
