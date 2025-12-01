@@ -3,7 +3,7 @@ import aboutImage from '../../assets/images/about.jpg'
 
 function About() {
     return (
-        <section>
+        <section className='flex flex-col justify-center items-center gap-8 my-20 px-4'>
             <h2>About Me</h2>
 
             <div>
