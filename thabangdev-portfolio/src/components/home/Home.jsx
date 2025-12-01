@@ -18,7 +18,7 @@ function Home() {
                 <p>Full stack developer passionate about building functional, user-friendly web applications from front to back; driven by the challenge of creating great digital experiences.</p>
             </div>
 
-            <div>
+            <div className='flex gap-8'>
                 <FontAwesomeIcon icon={faEnvelope} size="xl" />
                 <FontAwesomeIcon icon={faLinkedin} size="xl" style={{color: "#33a7ff",}} />
                 <FontAwesomeIcon icon={faGithub} size="xl" />
@@ -26,9 +26,9 @@ function Home() {
                 <FontAwesomeIcon icon={faDiscord} size="xl" style={{color: "#9875ff",}} /> 
             </div> 
 
-            <div>
-                <button >Lets Chat</button>
-                <button>View Projects</button>
+            <div className='flex gap-6'>
+                <button className='font-bold border-2 rounded-3xl p-2'>Lets Chat</button>
+                <button className='font-bold border-2 rounded-3xl p-2'>View Projects</button>
             </div>
 
         </section>
