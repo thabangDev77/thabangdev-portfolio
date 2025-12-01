@@ -11,10 +11,10 @@ function Home() {
                 <img src={Profile} alt='profile image' style={{width: '150px'}}/>
             </div> 
 
-            <div>
-                <h2>Hi There,</h2>
-                <h3>I'm Thabang</h3>
-                <h4>A Full-Stack Developer</h4>
+            <div className='space-y-1'>
+                <h2 className='text-2xl'>Hi There,</h2>
+                <h3 className='text-4xl font-bold'>I'm Thabang Phoshoko</h3>
+                <h4 className='text-2xl italic'>A Full-Stack Developer</h4>
                 <p>Full stack developer passionate about building functional, user-friendly web applications from front to back; driven by the challenge of creating great digital experiences.</p>
             </div>
 
