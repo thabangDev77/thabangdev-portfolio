@@ -6,7 +6,7 @@ import { faLinkedin, faGithub, faXTwitter, faDiscord } from '@fortawesome/free-b
 
 function Footer() {
   return (
-    <footer>
+    <footer className='flex flex-col justify-center items-center gap-2 my-5 pt-4'>
 
       <p>Thanks for checking our my Portfolio Website</p>
       <h3>Thabang.Dev</h3>
