@@ -4,7 +4,7 @@ import aboutImage from '../../assets/images/about.jpg'
 function About() {
     return (
         <section className='flex flex-col justify-center items-center gap-8 my-20 px-4'>
-            <h2>About Me</h2>
+            <h2 className='text-4xl font-bold'>About Me</h2>
 
             <div>
               <div>
@@ -19,7 +19,7 @@ function About() {
                   <img src={aboutImage} alt="about me image" style={{ width: '400px', height: '300px'}} /> 
               </div>
             </div>
-            <button>Discover More About Me</button>            
+            <button className='border-2 rounded-3xl p-2 font-bold'>Discover More About Me</button>            
         </section>
   )
 }
