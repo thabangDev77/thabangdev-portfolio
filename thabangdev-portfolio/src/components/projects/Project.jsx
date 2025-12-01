@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard'
 
 function Project() {
   return (
-    <section>
+    <section  className='flex flex-col justify-center items-center gap-2 my-20 px-4'>
       <h2>Recent Projects</h2>
       <p>Below are some of my recent work.Check out my complete <a href="#" target="_blank">portfolio</a>.</p>
       <p>Have a project you would like to discuss?</p>
