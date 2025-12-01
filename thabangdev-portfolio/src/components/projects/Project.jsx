@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard'
 function Project() {
   return (
     <section  className='flex flex-col justify-center items-center gap-2 my-20 px-4'>
-      <h2>Recent Projects</h2>
+      <h2 className='text-4xl font-bold'>Recent Projects</h2>
       <p>Below are some of my recent work.Check out my complete <a href="#" target="_blank">portfolio</a>.</p>
       <p>Have a project you would like to discuss?</p>
       <p><a href="#">Reach out</a> and lets make something great together</p>
@@ -14,7 +14,7 @@ function Project() {
         <ProjectCard /> 
         <ProjectCard />
       </div>
-      <button><a href="#">See More Projects</a></button>
+      <button className='font-bold border-2 rounded-3xl p-2'><a href="#">See More Projects</a></button>
     </section>
   )
 }
