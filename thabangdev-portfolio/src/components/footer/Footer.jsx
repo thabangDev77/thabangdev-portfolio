@@ -6,12 +6,12 @@ import { faLinkedin, faGithub, faXTwitter, faDiscord } from '@fortawesome/free-b
 
 function Footer() {
   return (
-    <footer>
+    <footer className='flex flex-col justify-center items-center gap-2 my-5 pt-4'>
 
-      <p>Thanks for checking our my Portfolio Website</p>
-      <h3>Thabang.Dev</h3>
-      <p>Get in touch with me and get the ball rolling</p>
-      <div>
+      <p className='text-sm italic'>Thanks for checking our my Portfolio Website</p>
+      <h3 className='text-3xl font-bold'>Thabang.Dev</h3>
+      <p><span className='font-bold italic'>Get in touch</span> with me and get the ball rolling</p>
+      <div className='flex gap-8 my-2'>
           {/* Social media icons */}
           <FontAwesomeIcon icon={faEnvelope} size="xl" />
           <FontAwesomeIcon icon={faLinkedin} size="xl" style={{color: "#33a7ff",}} />
@@ -20,15 +20,15 @@ function Footer() {
           <FontAwesomeIcon icon={faDiscord} size="xl" style={{color: "#9875ff",}} />
                      
       </div>
-      <div>
+      <div className='flex gap-10 mb-2 font-bold border-t border-x p-2 rounded-xl'>
           <a href="#">Home</a>
           <a href="#">About Me</a>
           <a href="#">Projects</a>
           <a href="#">Expertise</a>
           <a href="#">Blog</a>
       </div>
-      <p>&copy; 2025 Thabang.Dev. All rights reserved.</p>
-      <p>Designed and Developed by <a href="#">Thabang</a></p>
+      <p className='text-'>&copy; 2025 Thabang.Dev. All rights reserved.</p>
+      <p className='text-xs'>Designed and Developed by <a href="#">Thabang</a></p>
   
     </footer>
   )

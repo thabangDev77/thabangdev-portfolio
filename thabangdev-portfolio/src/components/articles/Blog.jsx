@@ -3,12 +3,13 @@ import Post from './Post';
 
 function Blog() {
   return (
-    <section>
-      <h2>My Blog</h2>
+    <section id='blog' className='flex flex-col justify-center items-center my-20'>
+      <h2 className='text-4xl font-bold mb-4'>My Blog</h2>
       <p>Please check out some of the articles I have published, give me feedback and suggestions</p>
-      
       <Post />
-      <p><a href="#">Other featured blogs</a></p>
+      <Post />
+      <Post />
+      <p className='font-bold italic border-x border-b p-2 rounded-2xl'>Other featured blogs</p>
     </section>
   )
 }
