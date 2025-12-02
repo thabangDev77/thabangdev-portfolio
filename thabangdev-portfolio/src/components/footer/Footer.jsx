@@ -2,6 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, faXTwitter, faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-scroll';
 
 
 function Footer() {
@@ -10,7 +11,7 @@ function Footer() {
 
       <p className='text-sm italic'>Thanks for checking our my Portfolio Website</p>
       <h3 className='text-3xl font-bold'>Thabang.Dev</h3>
-      <p><span className='font-bold italic'>Get in touch</span> with me and get the ball rolling</p>
+      <p><Link to="contact-me" smooth={true} duration={500} offset={-70} className='font-bold italic'>Get in touch</Link> with me and get the ball rolling</p>
       <div className='flex gap-8 my-2'>
           {/* Social media icons */}
           <FontAwesomeIcon icon={faEnvelope} size="xl" />
@@ -21,11 +22,12 @@ function Footer() {
                      
       </div>
       <div className='flex gap-10 mb-2 font-bold border-t border-x p-2 rounded-xl'>
-          <a href="#">Home</a>
-          <a href="#">About Me</a>
-          <a href="#">Projects</a>
-          <a href="#">Expertise</a>
-          <a href="#">Blog</a>
+          <Link to="home" smooth={true} duration={500} offset={-70}>Home</Link>
+          <Link to="about-me" smooth={true} duration={500} offset={-70}>About</Link>
+          <Link to="projects" smooth={true} duration={500} offset={-70}>Projects</Link>
+          <Link to="expertise" smooth={true} duration={500} offset={-70}>Expertise</Link>
+          <Link to="blog" smooth={true} duration={500} offset={-70}>Blog</Link>
+        
       </div>
       <p className='text-'>&copy; 2025 Thabang.Dev. All rights reserved.</p>
       <p className='text-xs'>Designed and Developed by <a href="#">Thabang</a></p>
