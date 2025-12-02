@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <section className='flex flex-col justify-center items-center gap-2 my-20 px-4'>
+    <section id='contact-me' className='flex flex-col justify-center items-center gap-2 my-20 px-4'>
 
       <h2 className='text-4xl font-bold'>Contact Me</h2>
       <p>Have a project you would like to discuss? Reach out and lets build something great together</p>

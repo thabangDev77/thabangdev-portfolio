@@ -3,7 +3,7 @@ import Post from './Post';
 
 function Blog() {
   return (
-    <section className='flex flex-col justify-center items-center my-20'>
+    <section id='blog' className='flex flex-col justify-center items-center my-20'>
       <h2 className='text-4xl font-bold mb-4'>My Blog</h2>
       <p>Please check out some of the articles I have published, give me feedback and suggestions</p>
       <Post />

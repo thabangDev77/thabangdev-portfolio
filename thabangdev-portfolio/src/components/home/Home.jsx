@@ -6,7 +6,7 @@ import Profile from '../../assets/images/profile.jpg';
 
 function Home() {
   return (
-    <section className='flex flex-col justify-center items-center text-center gap-4 py-10 mx-10 space-y-2'>
+    <section id='home' className='flex flex-col justify-center items-center text-center gap-4 py-10 mt-30 mx-10 space-y-2'>
             <div> 
                 <img src={Profile} alt='profile image' style={{width: '150px'}}/>
             </div> 
