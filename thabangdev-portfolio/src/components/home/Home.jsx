@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, faXTwitter, faDiscord } from '@fortawesome/free-brands-svg-icons';
 import Profile from '../../assets/images/profile.jpg';
+import { Link } from 'react-scroll';
 
 function Home() {
   return (
@@ -27,8 +28,8 @@ function Home() {
             </div> 
 
             <div className='flex gap-6'>
-                <button className='font-bold border-2 rounded-3xl p-2'>Lets Chat</button>
-                <button className='font-bold border-2 rounded-3xl p-2'>View Projects</button>
+                <button className='font-bold border-2 rounded-3xl p-2'><Link to="contact-me" smooth={true} duration={500} offset={-70}>Lets Chat</Link></button>
+                <button className='font-bold border-2 rounded-3xl p-2'><Link to="projects" smooth={true} duration={500} offset={-70}>View Projects</Link></button>
             </div>
 
         </section>

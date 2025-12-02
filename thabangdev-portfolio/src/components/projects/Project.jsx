@@ -1,5 +1,6 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
+import { Link } from 'react-scroll';
 
 function Project() {
   return (
@@ -7,7 +8,7 @@ function Project() {
       <h2 className='text-4xl font-bold'>Recent Projects</h2>
       <p>Below are some of my recent work.Check out my full <a className='font-bold' href="#" target="_blank">Project Catalog</a>.</p>
       <p>Have a project you would like to discuss?</p>
-      <p><a href="#" className='font-bold'>Reach out</a> and lets make something great together</p>
+      <p><Link to="contact-me" smooth={true} duration={500} offset={-70} className='font-bold'>Reach out</Link> and lets make something great together</p>
       <br/>
       <div className='grid grid-cols-3 m-2 gap-2'>
         <ProjectCard /> 
