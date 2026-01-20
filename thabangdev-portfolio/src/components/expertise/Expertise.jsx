@@ -8,30 +8,30 @@ function Expertise() {
           With a solid foundation in data structures and algorithms, I approach
           challenges with a structured mindset. My growing proficiency in
           JavaScript, HTML, and CSS has enabled me to build dynamic and
-          responsive web applications; and has further led me Learn more about Front-End Development.
+          responsive web applications; and has further led me Learn more about Full-Stack Development.
         </p>
 
       {/* Expertise Pillars */}
-      <div>
-        <article>
-          <h3>Problem Solving</h3>
-          <p>
+      <div className='grid grid-cols-3 gap-2 my-4'>
+        <article className='border-2 rounded-2xl p-2'>
+          <h3 className='text-xl font-semibold'>Problem Solving</h3>
+          <p className='mt-2'>
             I enjoy breaking down complex problems into manageable components
             and building logical, maintainable solutions.
           </p>
         </article>
 
-        <article>
-          <h3>Frontend Engineering</h3>
-          <p>
+        <article className='border-2 rounded-2xl p-2'>
+          <h3 className='text-xl font-semibold'>Frontend Engineering</h3>
+          <p className='mt-2'>
             I focus on building clean, accessible, and responsive user
             interfaces with modern frontend technologies.
           </p>
         </article>
 
-        <article>
-          <h3>Structured Learning</h3>
-          <p>
+        <article className='border-2 rounded-2xl p-2'>
+          <h3 className='text-xl font-semibold'>Structured Learning</h3>
+          <p className='mt-2'>
             I continuously improve by building projects, refining fundamentals,
             and applying best practices in real-world scenarios.
           </p>
