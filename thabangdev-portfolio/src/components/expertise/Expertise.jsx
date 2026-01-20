@@ -2,8 +2,8 @@ import React from "react";
 
 function Expertise() {
   return (
-    <section id="expertise">
-        <h2>Expertise</h2>
+    <section id="expertise" className='flex flex-col justify-center items-center gap-2 my-20 px-4'>
+        <h2 className='text-4xl font-bold'>Expertise</h2>
         <p>
           With a solid foundation in data structures and algorithms, I approach
           challenges with a structured mindset. My growing proficiency in
