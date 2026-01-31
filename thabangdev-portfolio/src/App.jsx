@@ -26,8 +26,8 @@ function App() {
     
     
     return (
-        <main className={isDarkMode ? 'dark-mode' : 'light-mode'}>
-            <button onClick={toggleTheme}>
+        <main className={`${isDarkMode ? 'dark-mode' : 'light-mode'} relative pt-2 min-h-screen transition-colors duration-500`}>
+            <button className='absolute top-6 right-25 m-4' onClick={toggleTheme}>
                 {isDarkMode ? lightModeIcon : darkModeIcon}
             </button>
             <Navbar />
