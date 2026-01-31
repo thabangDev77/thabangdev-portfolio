@@ -15,7 +15,7 @@ import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
 
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(true);
 
     const toggleTheme = () => {
         setIsDarkMode(!isDarkMode);
@@ -27,10 +27,9 @@ function App() {
     
     return (
         <main className={isDarkMode ? 'dark-mode' : 'light-mode'}>
-            <div>
-                {darkModeIcon}
-                {lightModeIcon}
-            </div>
+            <button onClick={toggleTheme}>
+                {isDarkMode ? lightModeIcon : darkModeIcon}
+            </button>
             <Navbar />
             <Home />
             <About />
