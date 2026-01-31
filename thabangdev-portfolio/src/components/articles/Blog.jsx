@@ -1,5 +1,6 @@
 import React from 'react'
 import Post from './Post';
+import { Link } from 'react-router-dom';
 import blogData from '../../data/blogsData';
 
 function Blog() {
@@ -23,7 +24,7 @@ function Blog() {
             {dataElements.slice(0, 3)}
         </div>
         
-        <p className='font-bold italic border-x border-b p-2 rounded-2xl'>Other featured blogs</p>
+        <p className='font-bold italic border-x border-b p-2 rounded-2xl'><Link to="/blogs">Other featured blogs</Link></p>
         </section>
   )
 }
