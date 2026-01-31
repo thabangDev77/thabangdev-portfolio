@@ -1,11 +1,8 @@
 import React from 'react'
-import Navbar from '../components/navbar/Navbar'
-import Footer from '../components/footer/Footer'
 
 function MoreAbout() {
     return (
         <>
-            <Navbar />
             <section>
 
                 <div>
@@ -119,7 +116,6 @@ function MoreAbout() {
                 </div>
 
             </section>
-            <Footer />
 
         </>
     )

@@ -1,7 +1,5 @@
 import React from 'react'
-import Navbar from '../components/navbar/Navbar'
 import ProjectCard from '../components/projects/ProjectCard'
-import Footer from '../components/footer/Footer'
 import projectsData from '../data/projectsData';
 
 function MoreProjects() {
@@ -17,7 +15,6 @@ function MoreProjects() {
         )
     return (
         <>
-            <Navbar />
             <main>
                 <section>
                     <h2>Recent Projects</h2>
@@ -30,7 +27,6 @@ function MoreProjects() {
                 
                 </section>
             </main>
-            <Footer />
         </>
     )
 }

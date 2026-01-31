@@ -1,7 +1,5 @@
 import React from 'react'
-import Navbar from '../components/navbar/Navbar'
-import Post from '../components/blogs/Post'
-import Footer from '../components/footer/Footer'
+import Post from '../components/articles/Post'
 import blogData from '../data/blogsData'
 
 function MoreBlogs() {
@@ -18,7 +16,6 @@ function MoreBlogs() {
 
     return (
         <>
-            <Navbar />  
             <main>
                 <section>
                     <h2>My Blog</h2>
@@ -29,7 +26,6 @@ function MoreBlogs() {
 
                 </section>
             </main>
-            <Footer />
         </>
     )
 }
