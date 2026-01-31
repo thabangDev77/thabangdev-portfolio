@@ -23,7 +23,7 @@ function Project() {
             <p><Link to="contact-me" smooth={true} duration={500} offset={-70} className='font-bold'>Reach out</Link> and lets make something great together</p>
             <br/>
             <div className='grid grid-cols-3 m-2 gap-2'>
-                {dataElements}
+                {dataElements.slice(0, 3)}
             </div>
             <button className='font-bold border-2 rounded-3xl p-2'><a href="#">See More Projects</a></button>
         </section>
