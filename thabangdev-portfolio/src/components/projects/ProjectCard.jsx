@@ -1,13 +1,13 @@
 import React from 'react'
-import projectImage from '../../assets/images/project.jpg'
 
-function ProjectCard() {
+function ProjectCard(props) {
   return (
     <div className='flex flex-col justify-center items-center gap-1 border-2 rounded-xl p-1'>
-        <img src={projectImage} alt='project photo' style={{ width: '100%', height: 'auto', borderRadius: '10px'}} />
-        <strong className='text-lg italic '>Project Name</strong>
-        <p className='text-sm'>Projects description</p>
-        <button className='text-sm font-bold border rounded-3xl p-2 m-2'>View Project</button>
+        <img src={props.image} alt='project photo' style={{ width: '100%', height: 'auto', borderRadius: '10px'}} />
+        <strong className='text-lg italic'>{props.title}</strong>
+        <p className='text-sm'>{props.description}</p>
+        <p className='text-sm font-bold'>Technologies: {props.technologies.join(', ')}</p>
+        <button className='text-sm font-bold border rounded-3xl p-2 m-2'><a href={props.link} target="_blank" rel="noopener noreferrer">View Project</a></button>
     </div>
   )
 }
