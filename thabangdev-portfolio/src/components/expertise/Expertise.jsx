@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faJs, faPython, faReact, faHtml5, faCss3, faGitAlt, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Expertise() {
   return (
@@ -41,25 +43,22 @@ function Expertise() {
       {/* Tech Stack */}
       <div>
         <h3>Tech Stack</h3>
-        <ul>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Tailwind CSS</li>
-          <li>Python</li>
-        </ul>
+        <div>
+            <FontAwesomeIcon icon={faJs} size="xl" />
+            <FontAwesomeIcon icon={faHtml5} size="xl" />
+            <FontAwesomeIcon icon={faCss3} size="xl" />
+            <FontAwesomeIcon icon={faReact} size="xl" />
+            <FontAwesomeIcon icon={faPython} size="xl" />
+        </div>
       </div>
 
       {/* Tools */}
       <div>
         <h3>Tools</h3>
-        <ul>
-          <li>Git & GitHub</li>
-          <li>VS Code</li>
-          <li>Vite</li>
-          <li>Qt</li>
-        </ul>
+        <div>
+        <FontAwesomeIcon icon={faGitAlt} size="xl" />
+        <FontAwesomeIcon icon={faGithub} size="xl" />
+        </div>
       </div>
     </section>
   );
