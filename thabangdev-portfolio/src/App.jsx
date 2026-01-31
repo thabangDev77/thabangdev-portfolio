@@ -1,12 +1,11 @@
 import React from 'react'
 import { useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
-import About from './components/about/About';
-import Project from './components/projects/Project';
-import Expertise from './components/expertise/Expertise';
-import Blog from './components/articles/Blog';
-import Contact from './components/contact/Contact';
+import MoreAbout from './pages/moreAbout';
+import MoreBlogs from './pages/moreBlogs';
+import MoreProjects from './pages/moreProjects';
 import Footer from './components/footer/Footer';
 import './styles/theme.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -31,12 +30,12 @@ function App() {
                 {isDarkMode ? lightModeIcon : darkModeIcon}
             </button>
             <Navbar />
-            <Home />
-            <About />
-            <Project />
-            <Expertise />
-            <Blog />
-            <Contact />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about-me" element={<MoreAbout />} />
+                <Route path="/blogs" element={<MoreBlogs />} />
+                <Route path="/projects" element={<MoreProjects />} />
+            </Routes>
             <Footer />
         </main>
     )
