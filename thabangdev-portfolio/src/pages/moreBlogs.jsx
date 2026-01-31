@@ -4,7 +4,7 @@ import Post from '../components/blogs/Post'
 import Footer from '../components/footer/Footer'
 import blogData from '../data/blogsData'
 
-function moreBlogs() {
+function MoreBlogs() {
 
     const dataElements = blogData.map((post) => <Post 
             key={post.id}
@@ -34,4 +34,4 @@ function moreBlogs() {
     )
 }
 
-export default moreBlogs
+export default MoreBlogs

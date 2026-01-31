@@ -4,7 +4,7 @@ import ProjectCard from '../components/projects/ProjectCard'
 import Footer from '../components/footer/Footer'
 import projectsData from '../data/projectsData';
 
-function moreProjects() {
+function MoreProjects() {
 
     const dataElements = projectsData.map((project) => <ProjectCard 
             key={project.id}
@@ -35,4 +35,4 @@ function moreProjects() {
     )
 }
 
-export default moreProjects
+export default MoreProjects
