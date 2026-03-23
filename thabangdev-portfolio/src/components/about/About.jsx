@@ -5,7 +5,7 @@ import aboutImage from '../../assets/images/about.jpg'
 function About() {
   return (
     <section id='about-me' className='flex flex-col justify-center items-center gap-8 my-20 px-4'>
-        <h2 className='text-4xl font-bold'>About Me</h2>
+        <h2 className='about-me-heading'>About Me</h2>
 
         <div className='grid grid-cols-5 gap-10 items-center ml-10'>
           <div className='col-span-3'>
