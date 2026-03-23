@@ -24,7 +24,7 @@ function Blog() {
             {dataElements.slice(0, 3)}
         </div>
         
-        <p className='font-bold italic border-x border-b p-2 rounded-2xl'><Link to="/blogs">Other featured blogs</Link></p>
+        <button className='more-blogs-btn italic'><Link to="/blogs">Other featured blogs</Link></button>
         </section>
   )
 }

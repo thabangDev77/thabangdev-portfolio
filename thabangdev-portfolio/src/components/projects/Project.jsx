@@ -26,7 +26,7 @@ function Project() {
             <div className='grid grid-cols-3 m-2 gap-2'>
                 {dataElements.slice(0, 3)}
             </div>
-            <button className='font-bold border-2 rounded-3xl p-2'><RouterLink to="projects">See More Projects</RouterLink></button>
+            <button className='more-projects-btn'><RouterLink to="projects">See More Projects</RouterLink></button>
         </section>
   )
 }

@@ -20,7 +20,7 @@ function About() {
               <img src={aboutImage} alt="about me image" style={{ width: '300px', height: '200px', borderRadius: '20px'}} /> 
           </div>
         </div>
-        <button className='border-2 rounded-3xl p-2 font-bold'><Link to="about-me">Discover More About Me</Link></button>            
+        <button className='more-about-btn'><Link to="about-me">Discover More About Me</Link></button>            
     </section>
   )
 }

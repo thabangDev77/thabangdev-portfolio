@@ -23,7 +23,7 @@ function Contact() {
           <label className='font-bold' htmlFor="message">Message:</label>
           <textarea className='border-2 rounded-lg w-lg p-2' id="message" name="message" rows="6" required></textarea>
 
-          <button className='font-bold border-2 rounded-3xl p-2 mt-2' type="submit">Send Message</button>
+          <button className='contact-submit-btn' type="submit">Send Message</button>
       </form>
     </section>
   )

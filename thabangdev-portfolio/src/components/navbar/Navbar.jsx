@@ -7,7 +7,7 @@ function Navbar() {
     <nav className='flex justify-between gap-2 m-3 p-2 border-2 rounded-xl'>
         <h1 className='text-2xl font-bold italic mt-1'>Thabang.Dev</h1>
         <NavLink />
-        <button className='border rounded-2xl m-1 py-1 px-3 bg-blue-500'><Link to="contact-me" smooth={true} duration={500} offset={-70}>Contact</Link></button>
+        <button className='bg-blue-500'><Link to="contact-me" smooth={true} duration={500} offset={-70}>Contact</Link></button>
     </nav>
   )
 }

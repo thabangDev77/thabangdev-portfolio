@@ -11,7 +11,7 @@ function Post(props) {
                     <span>{props.date}</span>
                 </div>
                 <p className='text-sm italic'>{props.description}</p>
-                <button className='font-bold border-2 mt-15 ml-96 rounded-3xl p-2'><a href={props.link}>Read more</a></button>
+                <button className='read-blog'><a href={props.link}>Read more</a></button>
             </div>
         </div>
   )

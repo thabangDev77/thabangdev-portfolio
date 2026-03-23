@@ -34,8 +34,8 @@ function Home() {
             </div> 
 
             <div className='flex gap-6'>
-                <button className='font-bold border-2 rounded-3xl p-2'><Link to="contact-me" smooth={true} duration={500} offset={-70}>Lets Chat</Link></button>
-                <button className='font-bold border-2 rounded-3xl p-2'><Link to="projects" smooth={true} duration={500} offset={-70}>View Projects</Link></button>
+                <button className='contact-btn'><Link to="contact-me" smooth={true} duration={500} offset={-70}>Lets Chat</Link></button>
+                <button className='projects-btn'><Link to="projects" smooth={true} duration={500} offset={-70}>View Projects</Link></button>
             </div>
 
             </section>
