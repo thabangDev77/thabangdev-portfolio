@@ -1,12 +1,19 @@
 import React from 'react'
+import About from '../about/About';
+import Project from '../projects/Project';
+import Expertise from '../expertise/Expertise';
+import Blog from '../articles/Blog';
+import Contact from '../contact/Contact';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, faXTwitter, faDiscord } from '@fortawesome/free-brands-svg-icons';
 import Profile from '../../assets/images/profile.jpg';
+import { Link } from 'react-scroll';
 
 function Home() {
   return (
-    <section id='home' className='flex flex-col justify-center items-center text-center gap-4 py-10 mt-30 mx-10 space-y-2'>
+    <>
+        <section id='home' className='flex flex-col justify-center items-center text-center gap-4 py-10 mt-30 mx-10 space-y-2'>
             <div> 
                 <img src={Profile} alt='profile image' style={{width: '150px'}}/>
             </div> 
@@ -27,11 +34,17 @@ function Home() {
             </div> 
 
             <div className='flex gap-6'>
-                <button className='font-bold border-2 rounded-3xl p-2'>Lets Chat</button>
-                <button className='font-bold border-2 rounded-3xl p-2'>View Projects</button>
+                <button className='font-bold border-2 rounded-3xl p-2'><Link to="contact-me" smooth={true} duration={500} offset={-70}>Lets Chat</Link></button>
+                <button className='font-bold border-2 rounded-3xl p-2'><Link to="projects" smooth={true} duration={500} offset={-70}>View Projects</Link></button>
             </div>
 
-        </section>
+            </section>
+            <About />
+            <Project />
+            <Expertise />
+            <Blog />
+            <Contact />
+        </>
   )
 }
 

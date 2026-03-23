@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import aboutImage from '../../assets/images/about.jpg'
 
 function About() {
@@ -19,7 +20,7 @@ function About() {
               <img src={aboutImage} alt="about me image" style={{ width: '300px', height: '200px', borderRadius: '20px'}} /> 
           </div>
         </div>
-        <button className='border-2 rounded-3xl p-2 font-bold'>Discover More About Me</button>            
+        <button className='border-2 rounded-3xl p-2 font-bold'><Link to="about-me">Discover More About Me</Link></button>            
     </section>
   )
 }
