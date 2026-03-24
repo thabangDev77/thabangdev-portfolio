@@ -60,3 +60,13 @@ button {
 }
 
 
+.icons {
+    margin: 20px;
+}
+
+.icons li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    font-size: 2rem;
+}

@@ -42,24 +42,24 @@ function Expertise() {
 
       {/* Tech Stack */}
       <div>
-        <h3>Tech Stack</h3>
-        <div>
-            <FontAwesomeIcon icon={faJs} size="xl" />
-            <FontAwesomeIcon icon={faHtml5} size="xl" />
-            <FontAwesomeIcon icon={faCss3} size="xl" />
-            <FontAwesomeIcon icon={faReact} size="xl" />
-            <FontAwesomeIcon icon={faPython} size="xl" />
-        </div>
+            <h3 className='text-2xl font-semibold text-orange-600'>Tech Stack</h3>
+            <ul className="icons">
+                <li><FontAwesomeIcon icon={faJs} size="xl" className=""/></li>
+                <li><FontAwesomeIcon icon={faHtml5} size="xl" /></li>
+                <li><FontAwesomeIcon icon={faCss3} size="xl" /></li>
+                <li><FontAwesomeIcon icon={faReact} size="xl" /></li>
+                <li><FontAwesomeIcon icon={faPython} size="xl" /></li>
+            </ul>
       </div>
 
       {/* Tools */}
       <div>
-        <h3>Tools</h3>
-        <div>
-        <FontAwesomeIcon icon={faGitAlt} size="xl" />
-        <FontAwesomeIcon icon={faGithub} size="xl" />
+            <h3 className='text-2xl font-semibold text-orange-600'>Tools</h3>
+            <ul className="icons">
+                <li><FontAwesomeIcon icon={faGitAlt} size="xl" /></li>
+                <li><FontAwesomeIcon icon={faGithub} size="xl" /></li>
+            </ul>
         </div>
-      </div>
     </section>
   );
 }
