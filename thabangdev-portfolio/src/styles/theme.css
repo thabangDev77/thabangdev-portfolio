@@ -17,6 +17,11 @@
     background-color: #f96630;
 }
 
+#about-me span {
+    color: darksalmon;
+    font-weight: bold;
+}
+
 /* Light Mode Styles */
 
 .light-mode {
