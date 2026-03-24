@@ -42,8 +42,21 @@ button {
     margin-top: 1rem;
 }
 
-#about-me {
+#about-me, #expertise {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+#expertise {
+    text-align: center;
+}
+
+#expertise .descriptions {
+    margin: 10px
+}
+
+#expertise .descriptions article {
+    padding: 5px;
+}
+
 
