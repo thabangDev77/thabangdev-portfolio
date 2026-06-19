@@ -123,6 +123,38 @@ button {
         font-size: 1rem;
     }
 }
+
+/* Laptop size screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* Home section */
+    .intro-container h2 {
+        font-size: 1.75rem;
+    }
+    
+    .intro-container h3 {
+        font-size: 2rem;
+    }
+
+    .intro-container h4 {
+        font-size: 1.5rem;
+        font-style: italic;
+    }
+
+    .intro-container p {
+        font-size: 1.25rem;
+        max-width: 800px;
+    }
+
+    .home-icons {
+        gap: 2.5rem;
+    } 
+    
+    .home-buttons .contact-btn, .home-buttons .projects-btn {
+        display: inline-block;
+        font-size: 1rem;
+    }
+}
 /* #about-me, #expertise {
     max-width: 1200px;
     margin: 0 auto;
