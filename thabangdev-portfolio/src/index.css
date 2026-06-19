@@ -59,7 +59,7 @@ button {
 }
 
 .intro-container h3 {
-    font-size: 1.5rem;
+    font-size: 1.125rem;
     font-weight: bold;
 }
 
@@ -83,12 +83,47 @@ button {
 
 .home-buttons .contact-btn, .home-buttons .projects-btn {
     display: block;
+    font-size: 0.8rem;
     width: 200px;
     margin-bottom: 1rem;
 }
 
 
-#about-me, #expertise {
+/* ----------------- MEDIA QUERIES ------------------ */
+
+/* Tablet size screens */
+@media (min-width: 480px) {
+
+    /* Home section */
+    .intro-container h2 {
+        font-size: 1.5rem;
+    }
+    
+    .intro-container h3 {
+        font-size: 1.75rem;
+    }
+
+    .intro-container h4 {
+        font-size: 1.25rem;
+        font-style: italic;
+        margin-bottom: 0.5rem;
+    }
+
+    .intro-container p {
+        font-size: 1.125rem;
+        max-width: 600px;
+    }
+
+    .home-icons {
+        gap: 2.5rem;
+    } 
+    
+    .home-buttons .contact-btn, .home-buttons .projects-btn {
+        display: inline-block;
+        font-size: 1rem;
+    }
+}
+/* #about-me, #expertise {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -115,4 +150,4 @@ button {
     display: inline;
     margin: 10px;
     font-size: 2rem;
-}
+} */
