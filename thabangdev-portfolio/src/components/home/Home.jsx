@@ -11,32 +11,33 @@ import Profile from '../../assets/images/profile.jpg';
 import { Link } from 'react-scroll';
 
 function Home() {
-  return (
-    <>
-        <section id='home' className='flex flex-col justify-center items-center text-center gap-4 py-10 mt-30 mx-10 space-y-2'>
-            <div> 
-                <img src={Profile} alt='profile image' style={{width: '150px'}}/>
-            </div> 
+    return (
+        <>
+            <section id='home' className='home-section'>
+            
+                <div> 
+                    <img src={Profile} alt='profile image' style={{width: '150px'}}/>
+                </div> 
 
-            <div className='space-y-1'>
-                <h2 className='intro'>Hi There,</h2>
-                <h3 className='text-4xl font-bold'>I'm Thabang Phoshoko</h3>
-                <h4 className='text-2xl italic text-yellow-500'>A Full-Stack Developer</h4>
-                <p>Full stack developer passionate about building functional, user-friendly web applications from front to back; driven by the challenge of creating great digital experiences.</p>
-            </div>
+                <div className='intro-container'>
+                    <h2>Hi There,</h2>
+                    <h3>I'm Thabang Phoshoko</h3>
+                    <h4>A Full-Stack Developer</h4>
+                    <p>Full stack developer passionate about building functional, user-friendly web applications from front to back; driven by the challenge of creating great digital experiences.</p>
+                </div>
 
-            <div className='flex gap-8'>
-                <FontAwesomeIcon icon={faEnvelope} size="xl" />
-                <FontAwesomeIcon icon={faLinkedin} size="xl" style={{color: "#33a7ff",}} />
-                <FontAwesomeIcon icon={faGithub} size="xl" />
-                <FontAwesomeIcon icon={faXTwitter} size="xl" style={{color: "#000000",}} />
-                <FontAwesomeIcon icon={faDiscord} size="xl" style={{color: "#9875ff",}} /> 
-            </div> 
+                <div className='home-icons'>
+                    <FontAwesomeIcon icon={faEnvelope} size="xl" />
+                    <FontAwesomeIcon icon={faLinkedin} size="xl" style={{color: "#33a7ff",}} />
+                    <FontAwesomeIcon icon={faGithub} size="xl" />
+                    <FontAwesomeIcon icon={faXTwitter} size="xl" style={{color: "#000000",}} />
+                    <FontAwesomeIcon icon={faDiscord} size="xl" style={{color: "#9875ff",}} /> 
+                </div> 
 
-            <div className='flex gap-6'>
-                <button className='contact-btn'><Link to="contact-me" smooth={true} duration={500} offset={-70}>Lets Chat</Link></button>
-                <button className='projects-btn'><Link to="projects" smooth={true} duration={500} offset={-70}>View Projects</Link></button>
-            </div>
+                <div className='home-buttons'>
+                    <button className='contact-btn'><Link to="contact-me" smooth={true} duration={500} offset={-70}>Lets Chat</Link></button>
+                    <button className='projects-btn'><Link to="projects" smooth={true} duration={500} offset={-70}>View Projects</Link></button>
+                </div>
 
             </section>
             <About />
@@ -45,7 +46,7 @@ function Home() {
             <Blog />
             <Contact />
         </>
-  )
+    )
 }
 
 export default Home
