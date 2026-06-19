@@ -7,8 +7,13 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
 main {
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 h2 {
@@ -36,20 +41,53 @@ button {
     background-color: inherit;
 }
 
+/* Home Section */
+
 #home {
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
 }
 
-#home .intro {
+.intro-container h2 {
     font-size: 1.5rem;
     font-style: italic;
     margin-bottom: 0.5rem;
 }
 
-#home p {
-    max-width: 800px;
-    margin-top: 1rem;
+.intro-container h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
 }
+
+.intro-container h4 {
+    font-size: 1.25rem;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+    color: #fbbf24; /* amber-yellow-500 */
+}
+.intro-container p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.home-icons {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem;
+}  
+
+.home-buttons .contact-btn, .home-buttons .projects-btn {
+    display: block;
+    width: 200px;
+    margin-bottom: 1rem;
+}
+
 
 #about-me, #expertise {
     max-width: 1200px;
