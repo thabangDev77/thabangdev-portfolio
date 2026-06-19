@@ -21,15 +21,17 @@ function Footer() {
           <FontAwesomeIcon icon={faDiscord} size="xl" style={{color: "#9875ff",}} />
                      
       </div>
-      <div className='flex gap-10 mb-2 font-bold border-t border-x p-2 rounded-xl'>
-          <Link to="home" smooth={true} duration={500} offset={-70}>Home</Link>
+
+      {/* Navigation links */}
+      <div className='flex gap-10 mb-2 font-bold border-t border-x p-3 rounded-xl'>
+          <Link to="home" className='ml-2' smooth={true} duration={500} offset={-70}>Home</Link>
           <Link to="about-me" smooth={true} duration={500} offset={-70}>About</Link>
           <Link to="projects" smooth={true} duration={500} offset={-70}>Projects</Link>
           <Link to="expertise" smooth={true} duration={500} offset={-70}>Expertise</Link>
           <Link to="blog" smooth={true} duration={500} offset={-70}>Blog</Link>
         
       </div>
-      <p className='text-'>&copy; 2025 Thabang.Dev. All rights reserved.</p>
+      <p className='text-'>&copy; {new Date().getFullYear()} Thabang.Dev. All rights reserved.</p>
       <p className='text-xs'>Designed and Developed by <a href="#">Thabang</a></p>
   
     </footer>
