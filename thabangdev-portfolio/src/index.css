@@ -92,7 +92,7 @@ button {
 /* ----------------- MEDIA QUERIES ------------------ */
 
 /* Tablet size screens */
-@media (min-width: 480px) {
+@media (min-width: 768px) {
 
     /* Home section */
     .intro-container h2 {
@@ -125,7 +125,7 @@ button {
 }
 
 /* Laptop size screens */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 1024px) {
 
     /* Home section */
     .intro-container h2 {
