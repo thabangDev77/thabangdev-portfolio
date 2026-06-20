@@ -125,7 +125,6 @@ button {
     width: 200px;
 }
 
-
 /* ----------------- MEDIA QUERIES ------------------ */
 
 /* Tablet size screens */
@@ -158,6 +157,29 @@ button {
     .home-buttons .contact-btn, .home-buttons .projects-btn {
         display: inline-block;
         font-size: 1rem;
+    }
+
+    /* About Me Section */
+    
+    .about-me-heading {
+        font-size: 2rem;
+    }
+    
+    .about-container {
+        max-width: 600px;
+    }
+    
+    .about-img {
+        width: 80%; 
+    }
+    
+    .about-description {
+        font-size: 1rem;
+    }
+    
+    .more-about-btn {
+        font-size: 1rem;
+        width: 250px;
     }
 }
 
