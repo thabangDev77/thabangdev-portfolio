@@ -211,7 +211,6 @@ button {
     .home-buttons .contact-btn, .home-buttons .projects-btn {
         display: inline-block;
         font-size: 1rem;
-        background-color: green;
     }
 
     /* About Me Section */    
