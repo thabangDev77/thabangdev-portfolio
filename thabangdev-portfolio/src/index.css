@@ -226,6 +226,28 @@ button {
         font-size: 1rem;
         width: 250px;
     }
+
+    /* Projects section */   
+    .projects-heading {
+        font-size: 2rem;
+    }
+
+    .projects p {
+        font-size: 1rem;
+    }
+
+    .more-projects-btn {
+        font-size: 1rem;
+    }
+
+    .projects-cards {
+        flex-direction: row;
+    }
+
+
+    .view-project-btn {
+        font-size: 1rem;
+    }
 }
 
 /* Laptop size screens */
