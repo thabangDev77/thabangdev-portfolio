@@ -125,6 +125,31 @@ button {
     width: 200px;
 }
 
+/* Projects Section */
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.projects-heading {
+    font-size: 1.5rem;
+}
+
+.projects p {
+    font-size: 0.8rem;
+}
+
+.more-projects-btn {
+    font-size: 0.8rem;
+    width: 200px;
+}
+
+
+
 /* ----------------- MEDIA QUERIES ------------------ */
 
 /* Tablet size screens */
