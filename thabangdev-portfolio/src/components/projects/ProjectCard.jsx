@@ -2,12 +2,13 @@ import React from 'react'
 
 function ProjectCard(props) {
   return (
-    <div className='flex flex-col justify-center items-center gap-1 border-2 rounded-xl p-1'>
-        <img src={props.image} alt='project photo' style={{ width: '100%', height: 'auto', borderRadius: '10px'}} />
+    <div className='project-card'>
+        {/* add a relevant alt text for each projects image */}
+        <img src={props.image} alt='project photo'/>
         <strong className='text-lg italic'>{props.title}</strong>
-        <p className='text-sm'>{props.description}</p>
-        <p className='text-sm font-bold'>Technologies: {props.technologies.join(', ')}</p>
-        <button className='view-project-btn text-sm'><a href={props.link} target="_blank" rel="noopener noreferrer">View Project</a></button>
+        <p>{props.description}</p>
+        <p className='font-bold'>Technologies: {props.technologies.join(', ')}</p>
+        <button className='view-project-btn'><a href={props.link} target="_blank" rel="noopener noreferrer">View Project</a></button>
     </div>
   )
 }

@@ -23,7 +23,7 @@ function Project() {
             <p>Have a project you would like to discuss?</p>
             <p><ScrollLink to="contact-me" smooth={true} duration={500} offset={-70} className='font-bold'>Reach out</ScrollLink> and lets make something great together</p>
             <br/>
-            <div className='projects-card'>
+            <div className='projects-cards'>
                 {dataElements.slice(0, 3)}
             </div>
             <button className='more-projects-btn'><RouterLink to="projects">See More Projects</RouterLink></button>
