@@ -311,6 +311,33 @@ button {
         font-size: 1.2rem;
         width: 300px;
     }
+
+    /* Projects section */
+    .projects-heading {
+        font-size: 2.5rem;
+    }
+    
+    .projects-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .projects p {
+        font-size: 1.2rem;
+    }
+
+    .project-title {
+        font-size: 1.5rem;
+    }
+
+    .more-projects-btn {
+        font-size: 1.2rem;
+        width: 300px;
+    }
+
+    .view-project-btn {
+        font-size: 1rem;
+    }
 }
 /* #about-me, #expertise {
     max-width: 1200px;
