@@ -17,13 +17,13 @@ function Project() {
     )
 
     return (
-        <section id='projects'  className='flex flex-col justify-center items-center gap-2 my-20 px-4'>
+        <section id='projects'  className='projects'>
             <h2 className='projects-heading'>Recent Projects</h2>
             <p>Below are some of my recent work.Check out my full <RouterLink className='font-bold' to="projects" target="_blank">Project Catalog</RouterLink>.</p>
             <p>Have a project you would like to discuss?</p>
             <p><ScrollLink to="contact-me" smooth={true} duration={500} offset={-70} className='font-bold'>Reach out</ScrollLink> and lets make something great together</p>
             <br/>
-            <div className='grid grid-cols-3 m-2 gap-2'>
+            <div className='projects-card'>
                 {dataElements.slice(0, 3)}
             </div>
             <button className='more-projects-btn'><RouterLink to="projects">See More Projects</RouterLink></button>
