@@ -288,6 +288,30 @@ button {
     .view-project-btn {
         font-size: 1rem;
     }
+
+    /* Expertise Section */
+    .expertise-heading {
+        font-size: 2rem;
+    }
+    
+    .expertise p {
+        font-size: 1rem;
+    }
+    
+    .expertise .descriptions {
+        display: flex;
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+
+    .expertise .descriptions article {
+        margin: 0;
+    }
+    
+    .expertise .descriptions article h3, .icon-container h3 {
+        font-size: 1.2rem;
+    }
+
 }
 
 /* Laptop size screens */
