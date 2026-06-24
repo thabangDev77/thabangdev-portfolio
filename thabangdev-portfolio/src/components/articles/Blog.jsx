@@ -16,11 +16,11 @@ function Blog() {
         )
 
     return (
-        <section id='blog' className='flex flex-col justify-center items-center my-20'>
+        <section id='blog' className='blog'>
         <h2 className='blog-heading'>My Blog</h2>
         <p>Please check out some of the articles I have published, give me feedback and suggestions</p>
         
-        <div className='grid grid-cols-3 m-2 gap-2'>
+        <div className='blog-posts'>
             {dataElements.slice(0, 3)}
         </div>
         
