@@ -125,9 +125,9 @@ button {
     width: 200px;
 }
 
-/* Projects Section */
+/* Projects and Blog Section */
 
-#projects {
+#projects, #blog {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,27 +135,27 @@ button {
     text-align: center;
 }
 
-.projects-heading {
+.projects-heading, .blog-heading {
     font-size: 1.5rem;
 }
 
-.projects p {
+.projects p, .blog p {
     font-size: 0.8rem;
 }
 
-.more-projects-btn {
+.more-projects-btn, .more-blogs-btn {
     font-size: 0.8rem;
     width: 200px;
 }
 
-.projects-cards {
+.projects-cards, .blog-posts {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     margin:0 1rem 1rem;
 }
 
-.project-card {
+.project-card, .post {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,9 +166,21 @@ button {
     padding: 0.5rem;
 }
 
-.view-project-btn {
+.view-project-btn, .read-blog {
     font-size: 0.8rem;
     width: 150px;
+}
+
+/* Blog Section */
+.post-heading-date-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.date {
+    font-size: 0.8rem;
 }
 
 /* Expertise Section */
