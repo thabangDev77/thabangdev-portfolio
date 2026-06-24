@@ -279,25 +279,25 @@ button {
         width: 250px;
     }
 
-    /* Projects section */   
-    .projects-heading {
+    /* Projects and Blog section */   
+    .projects-heading, .blog-heading {
         font-size: 2rem;
     }
 
-    .projects p {
+    .projects p, .blog p {
         font-size: 1rem;
     }
 
-    .more-projects-btn {
+    .more-projects-btn, .more-blogs-btn {
         font-size: 1rem;
     }
 
-    .projects-cards {
+    .projects-cards, .blog-posts {
         flex-direction: row;
     }
 
 
-    .view-project-btn {
+    .view-project-btn, .read-blog {
         font-size: 1rem;
     }
 
