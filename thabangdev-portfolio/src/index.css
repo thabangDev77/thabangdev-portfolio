@@ -388,30 +388,30 @@ button {
         width: 300px;
     }
 
-    /* Projects section */
-    .projects-heading {
+    /* Projects and Blog section */
+    .projects-heading, .blog-heading {
         font-size: 2.5rem;
     }
     
-    .projects-cards {
+    .projects-cards, .blog-posts {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .projects p {
+    .projects p, .blog p {
         font-size: 1.2rem;
     }
 
-    .project-title {
+    .project-title, .post-heading {
         font-size: 1.5rem;
     }
 
-    .more-projects-btn {
+    .more-projects-btn, .more-blogs-btn {
         font-size: 1.2rem;
         width: 300px;
     }
 
-    .view-project-btn {
+    .view-project-btn, .read-blog {
         font-size: 1rem;
     }
 
